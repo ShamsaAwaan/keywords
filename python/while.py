@@ -202,8 +202,29 @@ i=1
 while i<= 5:
     j=1
     while j<=10:
-        print(j, end=(' '))
+        print(j, end=(''))
         j=j+1
     i=i+1
     print()
-        
+print('\n')
+#first_number=int(input('enter your first number:'))
+#second_number=int(input('enter your second number:'))
+#rint(first_number)
+#print(second_number)
+#sum= first_number + second_number
+#print(sum)
+
+#marks= float(input('Enter marks'))
+#print("\n")
+#print('student marks',marks)
+#print('type is:', type(marks))
+
+#print('\n')
+#number=int(input('enter ur number:'))
+#second_number=float(input('enter ur number:'))
+#print(number)
+#print(second_number)
+#product = number * second_number
+#print('multipication is',product2)
+name,age,rollno= input('enter ur name, age, rollno').split()
+print('student details:', name, age, rollno)
