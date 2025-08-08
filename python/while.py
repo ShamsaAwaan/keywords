@@ -226,5 +226,49 @@ print('\n')
 #print(second_number)
 #product = number * second_number
 #print('multipication is',product2)
-name,age,rollno= input('enter ur name, age, rollno').split()
-print('student details:', name, age, rollno)
+#name,age,rollno= input('enter u r name, age, rollno').split()
+#print('student details:', name, age, rollno)
+from sys import argv
+print("Total argument passed :", len(argv))
+for i in range(10, 50, 6):
+    print(i, end=' ')
+print('\n')
+for i in range(9, 100, 3):
+    print(i, end=' ')
+print('\n')
+list1 = ['Jessa', 'Emma', 20, 30, 75.5]
+# iterate a list using range()
+for i in range(len(list1)):
+    print(list1[i])
+print("\n")
+
+for num in range(4):
+   for i in range(num):
+    print(num, end =' ')
+   print()
+print('\n')
+for i in range(5,-1, -1):
+    print(i)
+print('\n')
+for i in reversed(range(10,21)):
+    print(i, end=' ')
+print('\n')
+list2= [10,20,30,40]
+for i in range(len(list2)-1,-1,-1):
+ print(list2[i])
+print('\n')
+for i in range(10, 30, -2):
+    print(i, end=' ')
+
+sample_list= list(range(2,4,1))
+print(type(sample_list))
+print(sample_list)
+for item in sample_list:
+ print (item)
+print('\n')
+sample_list = list(range(10, 100, 10))
+for i in range(0, len(sample_list), 1):
+    sample_list[i] = sample_list[i] * 2
+
+#  display updated list
+print(sample_list)
