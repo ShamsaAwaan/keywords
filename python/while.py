@@ -270,5 +270,3 @@ sample_list = list(range(10, 100, 10))
 for i in range(0, len(sample_list), 1):
     sample_list[i] = sample_list[i] * 2
 
-#  display updated list
-print(sample_list)
