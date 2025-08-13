@@ -1,5 +1,3 @@
-
-
 # --- Creating Dictionaries ---
 dict1 = {"name": "John", "age": 25, "city": "New York"}
 print("Dict1:", dict1)
