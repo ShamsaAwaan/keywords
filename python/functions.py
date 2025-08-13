@@ -43,4 +43,17 @@ print(a)
 print(b)
 print(c)
 print(d)
+print('\n')
+x=5
+def function1():
+    print("value in first fun:", x)
+def function2():
+    x=55
+    print("value in second fun:", x)
 
+def function3():
+    print("value in second fun:", x)
+
+function1()
+function2()
+function3()
